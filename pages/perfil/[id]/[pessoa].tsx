@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const info = () => {
-	const router = useRouter();
-	const { id, pessoa } = router.query;
+const Info = () => {
+	const Router = useRouter();
+	const { id, pessoa } = Router.query;
 
 	return (
 		<>
@@ -19,4 +19,4 @@ const info = () => {
 	);
 };
 
-export default info;
+export default Info;
