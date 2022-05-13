@@ -8,7 +8,7 @@ const info = () => {
 	return (
 		<>
 			<h1>O id é: {id}</h1>
-			<h1>A pessoa é: {pessoa}</h1>
+			<h1>A pessoa: {pessoa}</h1>
 			<Link href="/">
 				<button>Página principal</button>
 			</Link>
