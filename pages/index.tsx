@@ -11,7 +11,7 @@ export default function Home() {
 		<>
 			<Title>Página Principal</Title>
 			<Link href="/sobre">
-				<button>Página sobre</button>
+				<button>Página Sobre</button>
 			</Link>
 		</>
 	);
