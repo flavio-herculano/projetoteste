@@ -13,7 +13,7 @@ function Sobre() {
 			<Link href="/">
 				<button>Página principal</button>
 			</Link>
-			<Link href="/1/Carlos">
+			<Link href="/perfil/1/1">
 				<button>Página Perfil</button>
 			</Link>
 		</>
