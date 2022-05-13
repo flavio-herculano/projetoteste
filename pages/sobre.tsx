@@ -11,7 +11,7 @@ function Sobre() {
 		<>
 			<Title>Página Sobre</Title>
 			<Link href="/">
-				<button>Página principal</button>
+				<button>Página Principal</button>
 			</Link>
 			<Link href="/perfil/1/1">
 				<button>Página Perfil</button>
