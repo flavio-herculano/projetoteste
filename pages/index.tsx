@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const Title = styled.h1`
 	font-size: 50px;
@@ -6,5 +7,12 @@ const Title = styled.h1`
 `;
 
 export default function Home() {
-	return <Title>Minha página!</Title>;
+	return (
+		<>
+			<Title>Página Principal</Title>
+			<Link href="/sobre">
+				<button>Página sobre</button>
+			</Link>
+		</>
+	);
 }
