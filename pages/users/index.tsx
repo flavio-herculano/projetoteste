@@ -14,7 +14,7 @@ type Props = {
 
 const WithStaticProps = ({ items }: Props) => (
   <Layout title="Users List | Next.js + TypeScript Example">
-    <h1>Users List</h1>
+    <h1>Usuários</h1>
     <p>
       Example fetching data from inside <code>getStaticProps()</code>.
     </p>
@@ -27,7 +27,6 @@ const WithStaticProps = ({ items }: Props) => (
     </p>
   </Layout>
 )
-
 
 export const getServerSideProps: GetServerSideProps = async () => {
   // Example for including static props in a Next.js function component page.
