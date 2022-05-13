@@ -8,11 +8,13 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const theme = {
+const theme:Object = {
 	colors: {
 		primary: "gray",
-	},
+	}
 };
+
+
 
 export default function App({ Component, pageProps }) {
 	return (
