@@ -1,3 +1,4 @@
+
 import clientPromise from './lib/mongodb'
 
 export default function Home({ isConnected }) {

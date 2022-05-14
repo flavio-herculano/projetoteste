@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import clientPromise from "../../lib/mongodb"
+import clientPromise from 'mongodb'
+//import clientPromise from '../../lib/mongodb'
 
 
 const hello = async(req: NextApiRequest, res: NextApiResponse) => {
