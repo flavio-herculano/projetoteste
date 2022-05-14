@@ -1,7 +1,7 @@
-export default function Home({ isConnected }) {
+export default function Home() {
   return (
     <>
-      <h1>olá</h1>
+      <h1>Hello World!</h1>
     </>
   )
 }
