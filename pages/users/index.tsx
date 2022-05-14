@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 export async function getStaticProps() {
   const data = await fetch('http://localhost:3000/api/users')
   const usuario = await data.json()
